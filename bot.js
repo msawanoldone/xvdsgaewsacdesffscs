@@ -314,10 +314,10 @@ function play(guild, song) {
 
 
 client.on("guildMemberAdd", (member) => {
-client.channels.get('496417752412717067').edit({name : `『 الأعضاء ↩ ${member.guild.memberCount} 』`});
+client.channels.get('539179559807877122').edit({name : `『 الأعضاء ↩ ${member.guild.memberCount} 』`});
 })
 client.on("guildMemberRemove", (member) => {
-client.channels.get('496417752412717067').edit({name : `『 الأعضاء ↩ ${member.guild.memberCount} 』`});
+client.channels.get('539179559807877122').edit({name : `『 الأعضاء ↩ ${member.guild.memberCount} 』`});
 })
 
 /////////////////
@@ -338,7 +338,7 @@ client.on('ready', () => {
     console.log(`Users! [ " ${client.users.size} " ]`);
     console.log('')
     console.log('╚[════════════════════════════════════]╝')
-          client.user.setActivity("youtube.com/kinggamer_th3",{type: 'PLAYING'});     //Heeeeeemo    
+          client.user.setActivity("KG-Network",{type: 'PLAYING'});     //Heeeeeemo    
 });
 
 
